@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ssm-incidents`](https://www.npmjs.com/package/@aws-sdk/client-ssm-incidents/v/3.1127.0).
+[`@aws-sdk/client-ssm-incidents`](https://www.npmjs.com/package/@aws-sdk/client-ssm-incidents/v/3.1128.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-ssm-incidents - [https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents](https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents)
-- @aws-sdk/client-ssm-incidents v3.1127.0 - [https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents&version=3.1127.0](https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents&version=3.1127.0)
+- @aws-sdk/client-ssm-incidents v3.1128.0 - [https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents&version=3.1128.0](https://cloud-sdk-builds.github.io/?sdk=client-ssm-incidents&version=3.1128.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1127.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1128.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-J4shNN/fL5Q3jmMvhmxVoNmszLMj6851JKKalvNRz06b0ceZQnaMqlUHtXVS54sE
+sha384-Sci6wSrTFm84ksjF7m4Kx8VHmjng1e0f7FJuoGixwJ0JbFoU5u93tcIGXu0Yv3gO
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ssm-incidents": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1127.0/index.min.mjs"
+            "@aws-sdk/client-ssm-incidents": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1128.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1127.0/index.min.mjs": "sha384-J4shNN/fL5Q3jmMvhmxVoNmszLMj6851JKKalvNRz06b0ceZQnaMqlUHtXVS54sE"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1128.0/index.min.mjs": "sha384-Sci6wSrTFm84ksjF7m4Kx8VHmjng1e0f7FJuoGixwJ0JbFoU5u93tcIGXu0Yv3gO"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ssm-incidents": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1127.0/index.min.mjs"
+                        "@aws-sdk/client-ssm-incidents": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1128.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1127.0/index.min.mjs": "sha384-J4shNN/fL5Q3jmMvhmxVoNmszLMj6851JKKalvNRz06b0ceZQnaMqlUHtXVS54sE"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-incidents@3.1128.0/index.min.mjs": "sha384-Sci6wSrTFm84ksjF7m4Kx8VHmjng1e0f7FJuoGixwJ0JbFoU5u93tcIGXu0Yv3gO"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1127.0`)
+* Always pin to a specific version (`@3.1128.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ssm-incidents/blob/refs/tags/3.1127.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ssm-incidents/blob/refs/tags/3.1128.0/LICENSE
 ```
 
 ---
